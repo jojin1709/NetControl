@@ -238,7 +238,16 @@ discover the project.
 
 <div align="center">
 
-<a href="https://github.com/sponsors/jojin1709"><img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub"></a>&nbsp;
+### ❤️ Sponsor jojin1709
+
+<a href="https://github.com/sponsors/jojin1709"><img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" height="32"></a>&nbsp;
+<a href="https://github.com/sponsors/jojin1709"><img src="https://img.shields.io/badge/Become_a_Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Become a Sponsor"></a>
+
+Sponsorship keeps NetControl maintained: firewall-rule correctness across Windows
+updates, IPv4/IPv6 observation fixes, docs, and the road to real WFP enforcement.
+
+<br/>
+
 <a href="https://github.com/jojin1709/NetControl/stargazers"><img src="https://img.shields.io/badge/⭐_Star-7B61FF?style=for-the-badge&logo=github&logoColor=white" alt="Star on GitHub"></a>
 
 **Developed by JOJIN JOHN**
