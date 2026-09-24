@@ -1,10 +1,14 @@
 # NetControl CI — MSVC via Ninja (no dependency on a specific VS generator/version)
+# Push to main → build + test + publish NetControl.exe to the "latest" release.
 name: windows-build
 
 on:
   push:
     branches: [ main, master ]
   pull_request:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -31,3 +35,21 @@ jobs:
         with:
           name: NetControl
           path: build/NetControl.exe
+
+      - name: Publish to release (latest)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          SHORT_SHA="${GITHUB_SHA:0:7}"
+          NOTES="Automated build ${SHORT_SHA} — ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"
+          if gh release view latest >/dev/null 2>&1; then
+            gh release upload latest build/NetControl.exe --clobber
+            gh release edit latest --notes "$NOTES"
+          else
+            gh release create latest build/NetControl.exe \
+              --title "NetControl (latest build)" \
+              --notes "$NOTES" --latest
+          fi

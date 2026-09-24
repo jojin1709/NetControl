@@ -34,6 +34,7 @@ control — running **on machines they own and administer**.
 <br/>
 
 <a href="#build"><img src="https://img.shields.io/badge/Build_Now-7B61FF?style=for-the-badge&logo=rocket&logoColor=white" alt="Build Now"></a>&nbsp;
+<a href="https://github.com/jojin1709/NetControl/releases/latest"><img src="https://img.shields.io/badge/⬇_Download_Exe-2EA043?style=for-the-badge&logo=windows&logoColor=white" alt="Download exe"></a>&nbsp;
 <a href="docs/TEST_PLAN.md"><img src="https://img.shields.io/badge/Test_Plan-30363D?style=for-the-badge&logoColor=white" alt="Test Plan"></a>&nbsp;
 <a href="docs/ARCHITECTURE.md"><img src="https://img.shields.io/badge/Architecture-30363D?style=for-the-badge&logo=github&logoColor=white" alt="Architecture"></a>&nbsp;
 <a href="docs/WFP-CALLOUT.md"><img src="https://img.shields.io/badge/WFP_Design-30363D?style=for-the-badge&logo=windows&logoColor=white" alt="WFP Design"></a>
