@@ -1,0 +1,2 @@
+NetControl source is provided for personal development and evaluation.
+No warranty is provided. Review and test all Windows firewall behavior before distributing to other users.

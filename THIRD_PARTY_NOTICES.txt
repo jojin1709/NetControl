@@ -1,0 +1,1 @@
+NetControl uses Windows SDK APIs and system libraries supplied by Microsoft. No third-party runtime dependency is required by the source project.

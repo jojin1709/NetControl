@@ -1,0 +1,14 @@
+#include <windows.h>
+#include "resource.h"
+
+IDI_NETCONTROL ICON "netcontrol.ico"
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
+
+APP_MENU MENU
+BEGIN
+    MENUITEM "&About NetControl\tF1",  IDM_ABOUT
+    MENUITEM "&Clear usage history",   IDM_CLEAR
+    MENUITEM "Toggle &dark mode",      IDM_THEME
+    MENUITEM "Minimize to &tray",      IDM_TRAY
+END
