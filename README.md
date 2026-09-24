@@ -200,10 +200,10 @@ These limitations are surfaced in the UI and docs rather than simulated away.
 
 **Fork it → find a bug → fix it in your fork → open a PR.** We review and merge.
 
-> **Read [LICENSE.txt](LICENSE.txt) first.** NetControl is *source-available*, not
-> open source: you may fork, build and run it, and send PRs back — but you may
-> **not** copy files or code into other repositories, products, or closed-source
-> work. Fixes must come back here as pull requests.
+> **Read [LICENSE.txt](LICENSE.txt) first.** NetControl is **GPL-3.0**: you may fork,
+> build, run, modify and share it — but every copy and derivative must stay GPL-3.0
+> with its source, so this code can never be absorbed into a proprietary or
+> closed-source product. Fixes come back here as pull requests.
 
 Before opening a PR:
 
@@ -221,13 +221,17 @@ Templates: [bug report](.github/ISSUE_TEMPLATE/bug_report.md) ·
 
 ## License
 
-**Source-available — not open source.** Full text in [LICENSE.txt](LICENSE.txt).
+**GPL-3.0** — full text in [LICENSE.txt](LICENSE.txt).
 
 | You can | You cannot |
 |---|---|
-| Fork, build and run it on your own machines | Copy code into other repos or products |
-| Modify your own fork | Redistribute, resell, or repackage it |
-| Send pull requests back to this repo | Present a fork as the official project |
+| Fork, build, run and study it | Ship a closed-source product containing this code |
+| Modify your own fork | Distribute a derivative without the same GPL-3.0 license and source code |
+| Send pull requests back to this repo | Remove or replace the license, or claim ownership |
+| Share copies — they stay GPL-3.0 | Present a fork as the official project |
+
+Every copy and derivative must stay GPL-3.0 — the code can never be absorbed into a
+proprietary project.
 
 ---
 

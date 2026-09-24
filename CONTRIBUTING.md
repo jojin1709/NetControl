@@ -4,9 +4,11 @@ Thanks for helping improve NetControl. The workflow is deliberately simple:
 
 > **Fork → find a bug → fix it in your fork → open a PR here.**
 
-We review and merge PRs that make the project better. What we do *not* accept is
-copying this code into other repositories or products — the license forbids it
-(see [LICENSE.txt](LICENSE.txt)). All fixes come back as pull requests to this repo.
+We review and merge PRs that make the project better. NetControl is licensed
+**GPL-3.0** ([LICENSE.txt](LICENSE.txt)): you may fork, modify and share it, but every
+copy and derivative must stay GPL-3.0 with its source — the code can never be absorbed
+into a proprietary or closed-source product. Fixes come back to THIS repository as
+pull requests.
 
 ## Ground rules
 
