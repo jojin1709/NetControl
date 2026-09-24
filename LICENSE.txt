@@ -1,2 +1,48 @@
-NetControl source is provided for personal development and evaluation.
-No warranty is provided. Review and test all Windows firewall behavior before distributing to other users.
+NetControl Source-Available License
+Copyright (c) 2026 JOJIN JOHN. All rights reserved.
+
+This repository is source-available, not open source. Reading, building and
+running it is allowed under the terms below. Reusing it elsewhere is not.
+
+1. GRANT
+   Subject to the conditions below, you are granted a personal,
+   non-exclusive, royalty-free, worldwide license to:
+     a) view and clone/fork this repository;
+     b) build and run the software for personal, non-commercial use on
+        machines you own or administer;
+     c) modify your own fork;
+     d) submit pull requests to this repository.
+
+2. CONDITIONS
+   a) You must keep this copyright notice and license text with any copy
+      of the software you are permitted to make under section 3.
+   b) Any code you contribute by pull request is licensed to the project
+      under this same license, and you keep the copyright on your own
+      contribution.
+   c) You may not redistribute, resell, sublicense, publish, or repackage
+      the software or substantial portions of it.
+   d) You may not copy files, modules or code from this repository into
+      any other repository, product, service, or closed-source work.
+      Fixes and features must come back to THIS repository as pull
+      requests against a fork.
+
+3. EXCEPTIONS
+   a) Linking to the repository, issues, or pull requests is allowed.
+   b) Screenshots and short excerpts for review, education, and bug
+      reports are allowed.
+
+4. NO WARRANTY
+   The software is provided "as is", without warranty of any kind,
+   express or implied, including but not limited to the warranties of
+   merchantability, fitness for a particular purpose and
+   noninfringement. In no event shall the copyright holder be liable for
+   any claim, damages or other liability arising from the use of the
+   software. You are responsible for verifying all Windows firewall
+   behavior before relying on it.
+
+5. TRADEMARKS
+   The name "NetControl" and its logo are not covered by this license.
+   Forks must not present themselves as the official project.
+
+If you do not agree to these terms, do not use, modify or distribute this
+software.

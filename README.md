@@ -53,6 +53,7 @@ control — running **on machines they own and administer**.
 - [Documentation](#documentation)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
+- [License](#license)
 - [Support](#support)
 
 ---
@@ -197,12 +198,36 @@ These limitations are surfaced in the UI and docs rather than simulated away.
 
 ## Contributing
 
-Issues and PRs are welcome. Before opening a PR:
+**Fork it → find a bug → fix it in your fork → open a PR.** We review and merge.
+
+> **Read [LICENSE.txt](LICENSE.txt) first.** NetControl is *source-available*, not
+> open source: you may fork, build and run it, and send PRs back — but you may
+> **not** copy files or code into other repositories, products, or closed-source
+> work. Fixes must come back here as pull requests.
+
+Before opening a PR:
 
 1. `cmake --build build --config Release` — zero errors.
 2. `ctest --test-dir build -C Release --output-on-failure` — all green.
 3. Keep the honest-scope rules: never simulate a capability Windows user-mode APIs
    cannot provide.
+
+Templates: [bug report](.github/ISSUE_TEMPLATE/bug_report.md) ·
+[feature request](.github/ISSUE_TEMPLATE/feature_request.md) ·
+[PR checklist](.github/PULL_REQUEST_TEMPLATE.md). Full guide:
+**[CONTRIBUTING.md](CONTRIBUTING.md)**.
+
+---
+
+## License
+
+**Source-available — not open source.** Full text in [LICENSE.txt](LICENSE.txt).
+
+| You can | You cannot |
+|---|---|
+| Fork, build and run it on your own machines | Copy code into other repos or products |
+| Modify your own fork | Redistribute, resell, or repackage it |
+| Send pull requests back to this repo | Present a fork as the official project |
 
 ---
 
