@@ -61,9 +61,11 @@ if(MSVC)
   target_compile_options(NetControl PRIVATE /W4 /permissive- /EHsc /utf-8)
 endif()
 
-set_target_properties(NetControl PROPERTIES
-    VS_DPI_AWARE "PerMonitor"
-)
+if(CMAKE_GENERATOR MATCHES "Visual Studio")
+  set_target_properties(NetControl PROPERTIES
+      VS_DPI_AWARE "PerMonitor"
+  )
+endif()
 
 if(MSVC)
   target_link_options(NetControl PRIVATE /MANIFEST:NO)
